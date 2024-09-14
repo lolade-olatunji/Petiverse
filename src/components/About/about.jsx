@@ -1,9 +1,10 @@
-import React from 'react';
-import "../About/about.css";
+import React from "react";
+import "./about.css";
 
 function about() {
-  return <div className='about-background'>
-      <div className='about-inner'>
+  return (
+    <div className="about-background">
+      <div className="about-inner">
         <div className="about-left">
           <p>Our Mission</p>
           <h1>About Us</h1>
@@ -12,8 +13,8 @@ function about() {
             animals—they’re family. Our mission is to create a warm and
             inclusive space where pet lovers can come together to share their
             stories, seek advice, and celebrate the joys of pet ownership. We
-            aim to foster a community where every pet, from the tiniest
-            hamster to the largest dog, is celebrated and valued.
+            aim to foster a community where every pet, from the tiniest hamster
+            to the largest dog, is celebrated and valued.
           </h4>
           <button>Learn More</button>
         </div>
@@ -21,7 +22,8 @@ function about() {
           <img src="/images/woman.png" alt="img" />
         </div>
       </div>
-    </div>;
+    </div>
+  );
 }
 
-export default about
+export default about;

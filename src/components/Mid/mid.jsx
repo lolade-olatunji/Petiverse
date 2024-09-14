@@ -1,10 +1,11 @@
-import React from 'react';
-import "../Mid/mid.css"
+import React from "react";
+import "./mid.css";
 
 function mid() {
-  return <div className="mid-background">
+  return (
+    <div className="mid-background">
       <div className="mid-inner">
-        <div className='deco-mid1'>
+        <div className="deco-mid1">
           <img src="/images/foot1.png" alt="img" />
         </div>
         <div className="mid">
@@ -19,11 +20,12 @@ function mid() {
           <h1>70%</h1>
           <p>Happy engagers</p>
         </div>
-        <div className='deco-mid2'>
+        <div className="deco-mid2">
           <img src="/images/foot2.png" alt="img" />
         </div>
       </div>
-    </div>;
+    </div>
+  );
 }
 
-export default mid
+export default mid;

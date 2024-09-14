@@ -1,8 +1,9 @@
-import React from 'react';
-import "../Nav/nav.css";
+import React from "react";
+import "./nav.css";
 
 function nav() {
-  return <div className="Background">
+  return (
+    <div className="Background">
       <div className="col-one">
         <img src="/images/logo.png" alt="Logo" />
       </div>
@@ -15,10 +16,11 @@ function nav() {
         </ul>
       </div>
       <div className="col-three">
-        <button className='btn-1'>Sign in</button>
-        <button className='btn-2'>Sign up</button>
+        <button className="btn-1">Sign in</button>
+        <button className="btn-2">Sign up</button>
       </div>
-    </div>;
+    </div>
+  );
 }
 
-export default nav
+export default nav;
